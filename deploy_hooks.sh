@@ -34,5 +34,5 @@ if [ ! -h "$HOOK_DIR" ]; then
     mv $HOOK_DIR $BACKUP
 
     echo "Linking hooks"
-    ln -s ../$TO_DIR/hooks $1/.git/
+    ln -s ../git/hooks $1/.git/
 fi
